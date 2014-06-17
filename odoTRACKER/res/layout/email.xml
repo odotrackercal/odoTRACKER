@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="@dimen/margin_space_top" 
+    android:paddingBottom="@dimen/margin_space_bottom"
+    android:paddingLeft="@dimen/margin_space_left"
+    android:paddingRight="@dimen/margin_space_right">
+
+     <TextView android:id="@+id/text1" 
+         	   android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/text_font_size" 
+              android:textColor="@color/textBlack"
+			  android:text="@string/start_odometer_reading_date" />
+     
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/text_font_size" 
+              android:textColor="@color/textBlack"
+			  android:text="@string/end_odometer_reading_date" 
+			  android:layout_marginTop="@dimen/margin_space_top" />
+     
+    <DatePicker
+        android:id="@+id/datePicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+     <Button
+        android:id="@+id/button_send_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendEmail"
+        android:text="@string/button_send"
+        android:textSize="@dimen/button_font_size" 
+        android:background="@color/buttonBackGroundBlue"
+        android:textColor="@color/buttonTextWhite"
+        android:layout_marginTop="@dimen/margin_space_top" />
+
+</LinearLayout>

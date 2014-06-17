@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/margin_space_top" 
+    android:paddingBottom="@dimen/margin_space_bottom"
+    android:paddingLeft="@dimen/margin_space_left"
+    android:paddingRight="@dimen/margin_space_right">
+    
+    
+    
+    <Button
+        android:id="@+id/button_distance_distance"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="computeDistance"
+        android:text="@string/button_distance_distance"
+        android:textSize="@dimen/button_font_size" 
+        android:background="@color/buttonBackGroundBlue"
+        android:textColor="@color/buttonTextWhite"
+        android:layout_marginTop="@dimen/button_space_top" 
+        android:layout_marginBottom="@dimen/button_space_bottom" />
+
+    <Button
+        android:id="@+id/button_distance_odometer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="computeOdometer"
+        android:text="@string/button_distance_odometer"
+        android:textSize="@dimen/button_font_size" 
+        android:background="@color/buttonBackGroundBlue"
+        android:textColor="@color/buttonTextWhite" 
+        android:layout_marginTop="@dimen/button_space_top" 
+        android:layout_marginBottom="@dimen/button_space_bottom" />
+    
+</LinearLayout>
+

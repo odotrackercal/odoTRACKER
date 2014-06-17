@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="@dimen/margin_space_top" 
+    android:paddingBottom="@dimen/margin_space_bottom"
+    android:paddingLeft="@dimen/margin_space_left"
+    android:paddingRight="@dimen/margin_space_right">
+    
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/text_font_size" 
+              android:textColor="@color/textBlack"
+			  android:text="@string/start_odometer_reading" />
+    
+    <EditText
+        	  android:id="@+id/edit_start_odometer"
+			  android:layout_height="wrap_content"
+			  android:layout_width="match_parent"
+			  android:textSize="@dimen/text_font_size"
+			  android:inputType="number" />     
+    
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/text_font_size" 
+              android:textColor="@color/textBlack"
+			  android:text="@string/end_odometer_reading" />
+    
+    <EditText
+        	  android:id="@+id/edit_end_odometer"
+			  android:layout_height="wrap_content"
+			  android:layout_width="match_parent"
+			  android:textSize="@dimen/text_font_size"
+			  android:inputType="number" />     
+			  
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/text_font_size" 
+              android:textColor="@color/textBlack"
+			  android:text="@string/distance_travelled" />
+    
+    <EditText
+        	  android:id="@+id/edit_distance_travelled"
+			  android:layout_height="wrap_content"
+			  android:layout_width="match_parent"
+			  android:textSize="@dimen/text_font_size"
+			  android:inputType="number" />   
+			  
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/text_font_size" 
+              android:textColor="@color/textBlack"
+			  android:text="@string/text_date" />  
+			  
+     <EditText
+        	  android:id="@+id/edit_date"
+			  android:layout_height="wrap_content"
+			  android:layout_width="match_parent"
+			  android:textSize="@dimen/text_font_size"
+			  android:inputType="date"  />   
+			  
+	<TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/text_font_size" 
+              android:textColor="@color/textBlack"
+			  android:text="@string/text_notes" />  
+			  
+	 <EditText
+        	  android:id="@+id/edit_notes"
+			  android:layout_height="wrap_content"
+			  android:layout_width="match_parent"
+			  android:textSize="@dimen/text_font_size"
+			  android:inputType="textMultiLine" />   
+			  
+	 <Button
+        android:id="@+id/button_odometer_save"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="saveOdometer"
+        android:text="@string/button_save"
+        android:textSize="@dimen/button_font_size" 
+        android:background="@color/buttonBackGroundBlue"
+        android:textColor="@color/buttonTextWhite"
+        android:layout_marginTop="@dimen/button_space_top" 
+        android:layout_marginBottom="@dimen/button_space_bottom" />
+
+    <Button
+        android:id="@+id/button_odometer_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="cancelOdometer"
+        android:text="@string/button_cancel"
+        android:textSize="@dimen/button_font_size" 
+        android:background="@color/buttonBackGroundBlue"
+        android:textColor="@color/buttonTextWhite" 
+        android:layout_marginTop="@dimen/button_space_top" 
+        android:layout_marginBottom="@dimen/button_space_bottom" />
+    
+</LinearLayout>
+
+
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+    
+</TabHost>
+ -->
+
