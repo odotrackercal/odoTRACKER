@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">odoTssRACKER</string>
+    <string name="action_settings">Cài Đặt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_distance">Khoảng Cách</string>
+    <string name="button_distance_distance">Distance.vi</string>
+    <string name="button_distance_odometer">Odometers.vi</string>
+    <string name="start_odometer_reading">Bắt Đầu Odssometer</string>
+    <string name="end_odometer_reading">End Odomssseter Reading.vi</string>
+    <string name="distance_travelled">Distancssse Travelled.vi</string>
+    <string name="text_no">No.vi</string>
+    <string name="text_date">Date.vi</string>
+    <string name="text_notes">Notes.vi</string>
+    <string name="button_save">Lưu</string>
+    <string name="button_cancel">Hủy</string>
+    <string name="start_file">Start.vi</string>
+    <string name="end_file">Kết Thúc</string>
+    <string name="distance_file">Distsance.vi</string>
+    <string name="csv_history_file">OdoTrassckerHistory.csv</string>
+    <string name="start_odometer_reading_date">Start Odometer Reading Date.vi</string>
+    <string name="end_odometer_reading_date">End Odometer Reading Date.vi</string>
+    <string name="button_send">Gửi</string>
+    <string name="toast_saved">Đã Gửi</string>
+    <string name="toast_no_send">Lỗi! Không có dữ liệu để gửi</string>
+    <string name="toast_error">Error! No distance travelled.vi</string>
+    <string name="language">Ngôn Ngữ</string>
+    <string name="distance_unit">Distance Unit.vi</string>
+    <string name="date_format">MM-dd-yyyy</string>
+    <string name="message_delete">Are you sure you want to delete log .vi\#</string>
+    <string name="title_delete">Confirm Delete Log.vi</string>
+    <string name="yes_delete">Có</string>
+    <string name="cancel_delete">Hủy</string>
+    
+    
+    
+    
+	<string-array name="languages">
+	    <item>English</item>
+		<item>Vietnamese</item>
+	</string-array>
+	
+	<string-array name="distance_units">
+	    <item>Kilometers</item>
+		<item>Miles</item>
+	</string-array>
+	<string name="setting_done">Lưu</string>
+	<string name="Tab_log">Nhật Kí</string>
+	<string name="Tab_Email">Thư</string>
+	<string name="Tab_Setting">Cài Đặt</string>
+		<string name="Tab_Distance">Khoảng Cách</string>
+	
+</resources>

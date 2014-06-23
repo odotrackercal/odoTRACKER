@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="buttonBackGroundBlue">#ff00bfff</color>
+	<color name="buttonBackGroundBluePressed">#ff0079ff</color>
+	<color name="buttonTextWhite">#ffffffff</color>
+	<color name="textBlack">#808080</color>
+	<color name="textBlue">#ff00bfff</color>
+	
+	
+	
+	
+</resources>

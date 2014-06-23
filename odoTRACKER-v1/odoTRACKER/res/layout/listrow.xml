@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <TextView android:id="@+id/column1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+         android:gravity="center"
+        android:textSize="@dimen/logtext_font_size"
+        />
+    
+    <TextView
+        android:id="@+id/column2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:layout_gravity="center"
+         android:gravity="center"
+        android:textSize="@dimen/logtext_font_size" />
+    
+    <TextView android:id="@+id/column3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+         android:layout_gravity="center"
+         android:gravity="center"
+        android:textSize="@dimen/logtext_font_size"
+        />
+    
+    <TextView android:id="@+id/column4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+         android:gravity="center"
+        android:textSize="@dimen/logtext_font_size"
+        />
+    
+    <TextView android:id="@+id/column5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+         android:gravity="center"
+        android:textSize="@dimen/logtext_font_size"
+        />
+    
+    <TextView android:id="@+id/column56"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+         android:gravity="center"
+        android:textSize="@dimen/logtext_font_size"
+        />
+    
+    <TextView android:id="@+id/column6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+         android:gravity="left"
+        android:textSize="@dimen/logtext_font_size"
+        />
+
+</LinearLayout>

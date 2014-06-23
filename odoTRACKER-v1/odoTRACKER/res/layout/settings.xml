@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="@dimen/margin_space_top" 
+    android:paddingBottom="@dimen/margin_space_bottom"
+    android:paddingLeft="@dimen/margin_space_left"
+    android:paddingRight="@dimen/margin_space_right">
+    
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/text_font_size" 
+              android:textColor="@color/textBlack"
+			  android:text="@string/language" />
+
+    <Spinner
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="@dimen/text_font_size" 
+        android:layout_marginTop="@dimen/margin_space_top"/>
+    
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/text_font_size" 
+              android:textColor="@color/textBlack"
+			  android:text="@string/distance_unit" 
+			  android:layout_marginTop="@dimen/margin_space_top"/>
+
+    <Spinner
+        android:id="@+id/distance_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="@dimen/text_font_size" 
+        android:layout_marginTop="@dimen/margin_space_top"/>
+
+    <Button
+        android:id="@+id/button_done"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_done" />
+
+</LinearLayout>
